@@ -5,13 +5,14 @@ import { useTranslation } from 'react-i18next';
 
 function App() {
   const { t } = useTranslation('app');
+  const hello = 'React i18n';
 
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          {t('hello')}
+        <p data-testid="hello-area">
+          {t('hello', { target: hello })}
         </p>
         <a
           className="App-link"
@@ -19,7 +20,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          {t('learn_react')}
         </a>
       </header>
     </div>

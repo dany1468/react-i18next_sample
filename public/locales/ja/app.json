@@ -1,3 +1,4 @@
 {
-  "hello": "こんにちは React !"
+  "hello": "こんにちは {{target}}",
+  "learn_react": "React を学びましょう"
 }
