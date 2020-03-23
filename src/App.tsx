@@ -14,6 +14,9 @@ function App() {
         <p data-testid="hello-area">
           {t('hello', { target: hello })}
         </p>
+        <p>
+          {t('content.hello')}
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"

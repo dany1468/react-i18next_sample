@@ -1,4 +1,7 @@
 {
   "hello": "こんにちは {{target}}",
+  "content": {
+    "hello": "yarn add i18next"
+  },
   "learn_react": "React を学びましょう"
 }
